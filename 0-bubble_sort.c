@@ -26,14 +26,13 @@ static void swaping(int *a, int *b)
 void bubble_sort(int *array, size_t size)
 {
 	size_t i, ii;
-	int flag = 0;
 
 	if (!array || !size)
 		return;
 
 	for (i = 0; i < size - 1; i++)
 	{
-		flag = 0;
+		int flag = 0;
 		for (ii = 0; ii < size - 1 - i; ii++)
 
 			if (array[ii] > array[ii + 1])
