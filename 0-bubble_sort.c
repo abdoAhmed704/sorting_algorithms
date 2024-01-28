@@ -8,7 +8,7 @@
  *
  * Return: (void)
 */
-static void swaping(int *a, int *b)
+void swaping(int *a, int *b)
 {
 	int temp = *a;
 	*a = *b;
